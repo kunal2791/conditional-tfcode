@@ -3,7 +3,7 @@ Terraform code integrated with CI\CD to handle multiple variable file's with sin
 module.
 ###################################################################################
 
-In script we have used multiple TFVARS files, for different rules and different resourses.
+In script we are using multiple TFVARS files, for different rules and different resourses.
 each resource is binded with its own tfvar file with contains its own rule.
 for example:- i have picked only two rule for each resources CI-server & App-server with rules 
 SSH & HTTPS and named file according.
